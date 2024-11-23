@@ -1,3 +1,4 @@
+package fundamentar;
 
 import java.util.HashMap;
 import java.util.Map;
