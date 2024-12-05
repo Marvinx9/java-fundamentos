@@ -5,8 +5,7 @@ public class Excecoes {
         try {
             validarNumero();
         } catch (Exception e) {
-            System.out.println("Ocorreu um erro!");
-            return throw e;
+            System.out.println("Ocorreu um erro!" + e.getMessage());
         }
     }
 
