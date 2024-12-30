@@ -7,6 +7,5 @@ public class TesteDoConstrutor {
         Construtor construtor = new Construtor(2, "string");
         System.out.println(construtor);
 
-    }
-    
+    }    
 }

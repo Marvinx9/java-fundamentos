@@ -16,4 +16,3 @@ public class Construtor {
         this.numero = numero;
     }
 }
-
