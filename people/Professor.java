@@ -1,4 +1,4 @@
-package pessoa;
+package people;
 
 public class Professor extends Pessoa {
     
