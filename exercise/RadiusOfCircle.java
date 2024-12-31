@@ -1,8 +1,10 @@
 package exercise;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class RadiusOfCircle {
   public static void main(String[] args) {
+    Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
 
     System.out.print("Enter circle radius: ");
@@ -11,7 +13,7 @@ public class RadiusOfCircle {
 
     area = pi * radius * radius;
 
-    System.out.println("Area of circle is: " + area);
+    System.out.printf("Area of circle is: %.4f%n", area);
     sc.close();
   }
 }
