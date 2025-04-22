@@ -20,5 +20,6 @@ public class BitWise {
     } else {
       System.out.println("6th bit is false!"); //89
     }
+    sc.close();
   }
 }

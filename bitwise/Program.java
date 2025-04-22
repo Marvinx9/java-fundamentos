@@ -16,5 +16,6 @@ public class Program {
         else {
             System.out.println("6th bit is false!");
         }
+        sc.close();
     }
 }
